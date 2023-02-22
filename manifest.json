@@ -1,7 +1,7 @@
 {
   "vendor": "tiendatest3",
   "name": "billystore",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
