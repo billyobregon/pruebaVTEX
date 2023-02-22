@@ -1,0 +1,83 @@
+{
+    "footer": {
+      "blocks": ["footer-layout.desktop" ]
+    },
+    "footer-layout.desktop": {
+      "children": [
+        "product-separator",
+        "flex-layout.row#footer"
+      ]
+    },
+
+    "flex-layout.row#footer":{
+      "children": [
+        "flex-layout.row#listFooter",
+        "flex-layout.row#footer-desktop"
+      ],
+      "props": {
+        "blockClass": "containerFooter",
+        "marginTop":5
+  
+            }
+    },
+
+
+
+    "flex-layout.row#footer-desktop": {
+      "children": [
+        
+        "social-networks", 
+        "accepted-payment-methods"  
+      
+      ],
+       "props": {
+        "marginTop": 5
+
+      }
+    },
+
+    "social-networks": {
+      "props": {
+        "socialNetworks": [
+          { "url": "https://facebook.com/foo", "name": "Facebook" },
+          { "url": "https://twitter.com/foo", "name": "Twitter" }
+        ]
+      }
+    },
+    "accepted-payment-methods": {
+      "props": {
+        "paymentMethods": ["mastercard", "visa", "diners club"],
+        "showInColor": true
+      }
+    },
+    "flex-layout.row#listFooter":{
+      "children": [
+        "flex-layout.col#texto1"
+   
+      ]
+    },
+    "flex-layout.col#texto1": {
+        "children": [
+          "rich-text#listado",
+          "rich-text#listado2",
+          "rich-text#listado3"
+      ]
+    },
+  
+
+    "rich-text#listado": {
+      "props": {
+        "text": "Terminos y condiciones"
+      }
+    },
+    "rich-text#listado2": {
+      "props": {
+        "text": "Lanzamiento"
+      }
+    },
+    "rich-text#listado3": {
+      "props": {
+        "text": "Contacto"
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+  @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
+
+.styledLinkContent{
+    color: #000;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.styledLinkIcon{
+    color: red;
+}
+

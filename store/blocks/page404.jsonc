@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#404": {
+      "children": [
+        "flex-layout.col#col-404"
+      ],
+      "props": {
+        "blockClass": "page-404"
+      }
+    },
+    "flex-layout.col#col-404": {
+        "children": [
+          "rich-text#404-titulo",
+          "rich-text#404-text",
+          "rich-text#404-titulo-carrusel",
+          "flex-layout.row#shelf404"
+        ],
+        "props": {
+            "blockClass": "404-content"
+        }
+    },
+    "rich-text#404-titulo": {
+        "props": {
+            "text": "**No Hay Resultados**",
+            "font": "t-heading-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "404-titulo"
+        }
+    },
+    "rich-text#404-text": {
+        "props": {
+          "text": "Lo sentimos, no encontramos productos relacionados con tu búsqueda, intenta buscando otro término o navega nuestro catálogo de productos.",
+          "blockClass": "404-text",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+    "rich-text#404-titulo-carrusel": {
+        "props": {
+          "text": "### Lo más nuevo",
+          "blockClass": "404-titulo-carrusel",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#shelf404": {
+        "children": ["list-context.product-list#demo1"]
+    }
+}

@@ -1,0 +1,19 @@
+
+
+.flexRowContent--menuLeft{
+    align-items: center;
+}
+
+
+.flexRowContent--menuRigth{
+    align-items: center;
+}
+
+.flexRow--deals{
+    align-items: center;
+
+}
+
+.flexRow--containerFooter{
+    height: 200px;
+}

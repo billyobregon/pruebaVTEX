@@ -1,0 +1,16 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#topbar",
+      "flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop"
+    ]
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#topbarMobile",
+      "flex-layout.row#2-Mobile" 
+    ]
+  }
+}

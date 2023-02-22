@@ -1,0 +1,106 @@
+{
+    "store.custom#landing-jeans": {
+      "blocks": [
+        "flex-layout.row#bannerLandingJeans",
+        "flex-layout.row#bannerGeneros",
+        "info-card",
+        "flex-layout.row#video"
+    ]
+
+    },
+
+    "flex-layout.row#bannerLandingJeans": {
+      "children": [
+        "image#example"
+      ],
+      "props": {
+        "fullWidth": true
+      }
+    },
+
+    "flex-layout.row#bannerGeneros":{
+      "children": [
+        "flex-layout.col#bannerHombre",
+        "flex-layout.col#bannerMujer"
+
+      ],
+      "props": {
+        "fullWidth": false,
+        "colGap": 5,
+        "marginTop": 2
+      
+      }
+    },
+
+    "flex-layout.row#video": {
+      "children": [
+        "video#jeans"
+      ],
+      "props": {
+        "horizontalAlign": "center",
+        "fullWidth": true,
+        "preventHorizontalStretch": true
+      }
+    },
+    "flex-layout.col#bannerHombre":{
+      "children": [
+        "image#bannerHombre"
+      ],
+      "props": {
+       "width":"grow"
+      }
+    },
+    "flex-layout.col#bannerMujer":{
+      "children": [
+        "image#bannerMujer"
+      ],
+      "props": {
+       "width":"grow"
+      }
+    },
+
+    "video#jeans": {
+      "props": {
+        "src": "https://www.youtube.com/embed/mwM-ssiwYxY",
+        "autoPlay": false,
+        "height": 315,
+        "width": 560
+            }
+    },
+
+    "info-card": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://girbaud.vteximg.com.br/arquivos/MFG-LandingJeans-Tallas-Desk.jpg?v=638042293272800000",
+        "headline": "Tips para escoger tu talla",
+        "callToActionText": "Talla Ideal",
+        "callToActionUrl": "/sale/d",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+        
+      }
+    },
+  
+
+    // IMAGENES 
+    "image#example": {
+      "props": {
+        "src": "https://girbaud.vteximg.com.br/arquivos/MFG-LandingJeans-Banner-Landing-Desk.jpg",
+        "url": "/landing-prueba"
+      }
+    },
+    "image#bannerHombre": {
+      "props": {
+        "src": "https://girbaud.vteximg.com.br/arquivos/MFG-LandingJeans-Banner-Landing-Desk.jpg",
+        "url": "/landing-prueba"
+      }
+    },
+    "image#bannerMujer": {
+      "props": {
+        "src": "https://girbaud.vteximg.com.br/arquivos/MFG-LandingJeans-Banner-Landing-Desk.jpg",
+        "url": "/landing-prueba"
+      }
+    }  
+}

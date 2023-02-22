@@ -1,0 +1,193 @@
+{
+   
+  
+      "vtex.menu@2.x:menu#menutoprigth": {
+        "children": [
+          "menu-item#3",
+          "menu-item#4"
+        ]
+      },
+
+      "vtex.menu@2.x:menu#menuTopMainHeader": {
+        "children": [
+          "menu-item#hombre","menu-item#mujer","menu-item#sale","menu-item#sostenible"
+                ],
+                "props": {
+                  "blockClass": ["menuItemHeader"]
+                }
+      },
+
+    
+      "menu-item#3": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ayuda",
+            "tagTitle": "Store Location",
+            "text": "Store Location"
+          },
+          "iconProps": {
+            "id": "hpa-location"
+          }
+        }
+      },
+      "menu-item#4": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/ayuda",
+            "tagTitle": "Track Your Order",
+            "text": "Track Your Order"
+          },
+          "iconProps": {
+            "id": "hpa-logoeyes"
+          }
+        }
+      },
+      "menu-item#hombre": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "hombre",
+            "text": "hombre"
+          },
+          "iconProps": {
+            "id": "hpa-eyes",
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "activeClassName": "rebel-pink",
+            "mutedClassName": "c-action-primary"
+          },
+          "iconToTheRight": true
+        },
+        "blocks": ["vtex.menu@2.x:submenu#shop"]
+      },
+      
+      "vtex.menu@2.x:submenu#shop": {
+        "children": [
+          "flex-layout.row#subMenuItem",
+          "flex-layout.row#subMenuImage"
+
+         
+          
+        ],
+        "props":{
+          "blockClass": "containerSubMenu"
+        }
+      },
+      "flex-layout.row#subMenuItem":{
+        "children": [
+          "vtex.menu@2.x:menu#submenushop"
+         
+        ]
+      },
+      
+      "vtex.menu@2.x:menu#submenushop":{
+        "children": [
+          "menu-item#shop",
+          "menu-item#shop",
+          "menu-item#shop",
+          "menu-item#camisetas"
+        ], "props": {
+          "orientation": "vertical"
+        }
+      },
+
+     
+
+      "flex-layout.row#subMenuImage":{
+        "children": [
+          "image#example"
+        ]
+      },
+
+
+      "menu-item#shop": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Skincare", 
+            "tagTitle": "Mujer",
+            "text": "Lo nuevo"
+          }
+        }
+      },
+
+      "menu-item#camisetas": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Skincare", 
+            "tagTitle": "Mujer",
+            "text": "Camisetas"
+          },
+         
+          "iconProps": {
+            "id": "hpa-new",
+            "size": 26,
+            "viewBox": "0 0 16 16",
+            "mutedClassName": "c-action-primary"
+          },
+          "iconToTheRight": true
+        }
+      },
+
+
+      "menu-item#mujer": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Skincare", 
+            "tagTitle": "Mujer",
+            "text": "Mujer"
+          }
+        }
+      },
+    
+      "menu-item#sale": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/Skincare", 
+            "tagTitle": "Sale",
+            "text": "Sale"
+          }
+        }
+      },
+      "menu-item#sostenible": {
+        "props": {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/landing-prueba", 
+            "tagTitle": "Landing de Jeans",
+            "text": "Landing Jeans"
+          }
+        }
+      }
+     }

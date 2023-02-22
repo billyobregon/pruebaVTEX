@@ -1,0 +1,173 @@
+{
+    "flex-layout.row#topbar": {
+        "children": [
+          "notification.bar"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+      },
+
+      "flex-layout.row#topbarMobile": {
+        "children": [
+          "notification.bar#mobile"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+      },
+
+    "flex-layout.row#2-desktop": {
+        "children": [
+          "flex-layout.col#menutoprigth"
+        ],
+        "props": {
+          "fullWidth": true
+        }
+      },
+
+      "flex-layout.row#2-Mobile":{
+       
+          "children": [
+            "flex-layout.col#menutoprigth"
+          ],
+          "props": {
+            "fullWidth": true
+          }
+       
+      },
+
+
+      "flex-layout.row#3-desktop": {
+        "props": {
+          "blockClass": "main-header",
+          "horizontalAlign": "center",
+            "fullWidth": true
+        },
+        "children": [
+         "flex-layout.row#detailsLeft", 
+          "flex-layout.row#detailsRight"
+         
+        ]
+      },
+       
+   
+      "flex-layout.row#detailsRight": {
+        "children": [
+          "flex-layout.col#search-bar-desktop",
+          "flex-layout.col#login",
+          "flex-layout.col#minicart.v2"
+        ],
+        "props": {
+          "horizontalAlign": "right",
+          "preventHorizontalStretch": true,
+          "verticalAlign": "middle",
+          "blockClass": "menuRigth"
+
+          
+        }
+      },
+
+      "flex-layout.row#detailsLeft": {
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "flex-layout.col#menuheader"
+        ],
+        "props": {
+          "horizontalAlign": "left",
+          "preventHorizontalStretch": true,
+          "blockClass": "menuLeft",
+          "marginBottom": 5
+
+        
+        }
+      },
+  "flex-layout.col#logo-desktop": {
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.col#menuheader": {
+    "children": [
+      "vtex.menu@2.x:menu#menuTopMainHeader"
+    ],
+     "props": {
+      "horizontalAlign": "left"
+
+    }
+  },
+
+  "flex-layout.col#search-bar-desktop": {
+    "children": ["search-bar"],
+    "props": {
+      "horizontalAlign": "right"
+
+    }
+  },
+
+  "flex-layout.col#login": {
+    "children": ["login"],
+    "props": {
+      "horizontalAlign": "left",
+
+          "iconProps": {
+            "id": "hpa-location"
+          }
+      
+    }
+  },
+  "flex-layout.col#minicart.v2": {
+    "children": ["minicart.v2"]
+  },
+
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Iniciar seccion",
+      "accessCodeTitle": "Iniciar seccion",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "VTEX logo",
+      "href": "/",
+      "url": "https://girbaud.vteximg.com.br/arquivos/logo.png?v=636972065041170000",
+      "width": 100
+    }
+  },
+ 
+  "flex-layout.col#menutoprigth": {
+    "children": [
+      "vtex.menu@2.x:menu#menutoprigth"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+
+  "notification.bar": {
+    "props": {
+      "content": "ENVIOS GRATIS POR COMPRAS SUPERIORES A $250.000 "
+    }
+  },
+
+  "notification.bar#mobile": {
+    "props": {
+      "content": "versión mobile ENVIOS GRATIS POR COMPRAS SUPERIORES A $250.000 ",
+      "blockClass": "topbarMobile"
+    }
+  }
+
+  
+}
