@@ -1,8 +1,0 @@
-{
-  "memorygame": {
-    "component": "MemoryGame"
-  },
-  "memorygamemundial": {
-    "component": "MemoryGameMundial"
-  }
-}

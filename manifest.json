@@ -54,7 +54,7 @@
     "vtex.modal-layout": "0.x",
     "vtex.store-video": "1.x",
     "pilatos21.memory-game": "0.x",
-    "tiendatest3.game-diesel": "0.x",
+    "tiendatest3.my-billy": "0.x",
     "vtex.store-newsletter": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

@@ -2,8 +2,9 @@
   "store.home": { 
     "blocks": [
       "list-context.image-list#demo",
-      "memorygamemundial",
-      "game-diesel",
+      //"memorygamemundial",
+      //"mibilly",
+     // "dieselgame",
 
       "flex-layout.row#deals",
       "flex-layout.row#shelf" 
