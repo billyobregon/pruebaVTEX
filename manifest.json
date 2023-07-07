@@ -55,7 +55,9 @@
     "vtex.store-video": "1.x",
     "pilatos21.memory-game": "0.x",
     "tiendatest3.my-billy": "0.x",
-    "vtex.store-newsletter": "1.x"
+    "vtex.store-newsletter": "1.x",
+    "tiendatest3.componente-billy": "0.x",
+    "tiendatest3.talla-billy": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
