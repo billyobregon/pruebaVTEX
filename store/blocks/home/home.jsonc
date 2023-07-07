@@ -5,12 +5,19 @@
       //"memorygamemundial",
       //"mibilly",
      // "dieselgame",
-
+     "expectativa-billy",
+     "guia-talla-billy",
       "flex-layout.row#deals",
       "flex-layout.row#shelf" 
     ]
   },
 
+  "expectativa-billy":{
+
+  },
+  "guia-talla-billy":{
+
+  },
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
